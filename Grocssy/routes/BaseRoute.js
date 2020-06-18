@@ -3,7 +3,7 @@ import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import DetailsScreen from '../screens/DetailsScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, HeaderBackButton } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
@@ -28,7 +28,7 @@ const BaseRoute = () => {
           {() => (
             <HomeStack.Navigator>
               <HomeStack.Screen name="Home" component={HomeScreen} />
-              <HomeStack.Screen name="Details" component={DetailsScreen} />
+              <HomeStack.Screen name="Order Details" component={DetailsScreen} />
             </HomeStack.Navigator>
           )}
         </Tab.Screen>
