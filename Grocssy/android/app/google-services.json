@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "320167736812",
+    "firebase_url": "https://grocssy-c2ba8.firebaseio.com",
+    "project_id": "grocssy-c2ba8",
+    "storage_bucket": "grocssy-c2ba8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320167736812:android:b32359f5c8437a01f33cc9",
+        "android_client_info": {
+          "package_name": "com.grocssy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320167736812-cjet57ltdp8je3aemeh880ajitsuf89g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDurr59NhvE6W6s2Mg3EZUFFjQfGSxwV3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320167736812-cjet57ltdp8je3aemeh880ajitsuf89g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
